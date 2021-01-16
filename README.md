@@ -13,7 +13,7 @@ After generating a set of 2,000 random latitudes and longitudes, the citipy modu
 
 ### Developing a Travel Itinerary
 Using the vacation map, a user can identify cities to travel to and create a travel itinerary for anywhere in the world. An example for creating an itinerary between four Argentinian cities (Moron, Comodoro Rivadavia, Punta Arenas, and Ushuaia). Separate dataframes were created for the city in which the trip would begin and end (Moron) and for each stop along the way (Comodoro Rivadavia, Punta Arenas, and Ushuaia) and the latitude and longitude pairs for each dataframe were pulled. Using these latitude and longitude pairs, waypoints were set for each stop and a direction layer map was set up for a driving route between them. The map for the travel route is below.
-[WeatherPy_travel_map.PNG](https://github.com/borkard/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.PNG)
+![WeatherPy_travel_map.PNG](https://github.com/borkard/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.PNG)
 
 Markers with hotel and weather information for the relevant cities were then added to the map (displayed below).
-[WeatherPy_travel_map_markers.PNG](https://github.com/borkard/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.PNG)
+![WeatherPy_travel_map_markers.PNG](https://github.com/borkard/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.PNG)
